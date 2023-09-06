@@ -58,7 +58,7 @@ alert("unable to add Product")
   },[prevSpecs])
   return (
     <div>
-  <div>new testing</div>
+  <div>new tesg</div>
        <div>
        <form className='productform' onSubmit={(e)=>{handleProduct(e)}}>
        <h3 style={{textAlign:"center"}}>Product Details</h3>
