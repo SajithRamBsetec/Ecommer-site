@@ -1,0 +1,178 @@
+.frontTopBar{
+    margin-top:10px;
+    padding-left:10px;
+    height:30px;
+    width:100%;
+    background-color: bisque;
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.languageChanger{
+     margin-left:10px;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: small;
+    font-weight: 400;
+    color:black;
+}
+
+
+
+.links{
+    margin-right:5px;
+    border-right: 1px solid black;
+    padding:0px 15px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    color:black;
+}
+.lastLink{
+    margin-right:5px;
+    padding:0px 15px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    color:black;
+}
+.front2ndBar{
+    padding-left:20px;
+    height:10vh;
+    width:100%;
+    background-color: rgb(249, 236, 220);
+    display:flex;
+
+}
+
+.logo{
+    margin-left:10px;
+    height:65px;
+    width:65px;
+    border-radius:60px;
+}
+.frontSearchBox{
+    margin-left:10%;
+  margin-top:10px;
+  height: 40px;
+  width:35%;
+  border-radius: 5px;
+  border-color: rgb(110, 108, 108);
+  text-align: center;
+}
+.frontSearchBox::placeholder{
+    margin-left:-100;
+}
+.frontSearchButton{
+    margin-top:10px;
+    height: 40px;
+    width:70px;
+    border-radius: 5px;
+    border-color: rgb(31, 30, 30);
+    background-color: blanchedalmond;
+    text-align: center;
+}
+.frontSearchIcon{
+position:absolute;
+left:18%;
+top:9%;
+font-size: large;
+}
+.Contact_No{
+    margin-top: 15px;
+    margin-left:11%;
+
+}
+.cartButton{
+    margin-top:20px;
+  margin-left:40px;
+    height: 30px;
+    width:100px;
+    border-radius: 5px;
+    border-color: rgb(31, 30, 30);
+    background-color: blanchedalmond;
+    text-align: center;
+}
+.frontCartlink{
+color:rgb(237, 86, 86);
+font-size: 15px;
+    font-weight: 600;
+}
+.cartBag{
+    height:17px;
+    margin-left:12px;
+}
+.front3rdBar{
+
+    padding-left:10px;
+    height:40px;
+    width:100%;
+    background-color: rgb(242, 167, 76);
+    display:flex;
+    
+}
+.thirdBarlinks{
+    text-decoration:none;
+    margin-left:50px;
+    margin-top:8px;
+    font-size: larger;
+    font-weight:600;
+    color:white;
+}
+.thirdBarlinks:hover{
+    text-decoration:underline;
+}
+.front4thBar{
+    display:flex;
+    justify-content: space-around;
+}
+.fourthBarButt{
+    margin-top: 20px;
+height:40px;
+width:40%;
+background-color: rgb(180, 125, 57);
+color:white;
+font-size: larger;
+font-weight:500;
+}
+.ReferenceBar{
+    margin-top:100%;
+    height:50%;
+    width:100%;
+    background-color: black;
+    color:white;
+
+}
+.OfferCarousel{
+    margin-top: 20px;
+    background-color:rgb(246, 223, 195);
+    padding:10px;
+}
+#OfferCarouselImg{
+    height: 300px;
+    width: auto;
+}
+#CategoryBunchBox{
+    margin:10px;
+    background-color: blanchedalmond;
+}
+.CategoryBunchHeader{
+   margin:0 0 0 20px;
+    font-weight:500;
+    font-size: large;
+}
+#CategoryBunchImgView{
+    height:230px;
+    width:250px;
+   
+}
+.Categorybody{
+    padding:0 0 10px 0 ;
+    display: flex;
+    justify-content: center;
+
+}
+.Featured_Products h4{
+    text-align: center;
+}

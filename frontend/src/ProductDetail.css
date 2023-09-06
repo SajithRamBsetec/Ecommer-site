@@ -1,0 +1,161 @@
+.ProductMain{
+    background-color: rgba(19, 204, 210, 0.821);
+}
+.ProductDetail{
+
+padding:20px;
+}
+#detailBox{
+    
+    width:auto;
+}
+.detailcover{
+    height:100%;
+    width:100%;
+}
+.detailheader{
+    font-size:xx-large;
+    font-weight: 500;
+}
+#productPreView{
+height:300px;
+width:400px;
+
+}
+.carousels{
+    height:200px;
+    width:400px;
+    margin-bottom: 30%;
+}
+.PreviewPrice{
+    font-size: larger;
+    font-weight: 400;
+    color:red;
+}
+.PreviewDescription{
+    height:auto;
+    font-size:21px;
+    color:Black;
+    font-weight:500;
+    background-color: rgba(21, 64, 194, 0.379);
+}
+.Specheading{
+    font-size:23px;
+    font-weight: 500;
+}
+.Specs{
+    font-size:10px;
+    font-weight: 500;
+
+}
+.prevBackButt{
+    font-size:large;
+    font-weight: 500;
+}
+.ProductQuantity{
+    height:30px;
+    width:60px;
+    background-color: bisque;
+    font-size:17px;
+    font-weight: 600;
+}
+.ProductAddToCart{
+
+    margin-top:10px;
+    height: 40px;
+    width:auto;
+    font-size: large;
+    font-weight: 600;
+    background-color: bisque;
+  
+
+}
+.QTYlabel{
+    font-size: large;
+    margin-right:20px;
+font-weight: 650;
+
+}
+.ProductVariety{
+    margin-top:10px;
+}
+.productSecure{
+    margin-top: 10px;
+}
+.addWishlist{
+    margin-top: 10px;
+    margin-right:20px;
+text-decoration: none;
+border-bottom:1px solid black;
+color: black;
+font-size: large;
+font-weight: 500;
+width: fit-content;
+cursor:pointer;
+}
+.addCompare{
+    margin-top: 10px;
+    font-size: large;
+    font-weight: 500;
+    color:black;
+    text-decoration: none;
+border-bottom:1px solid black;
+width: fit-content;
+cursor: pointer;
+}
+.shareVia{
+    margin-top: 10px;
+    font-size: large;
+    font-weight: 500;
+    margin-right: 20px;
+}
+.shareOptions{
+    margin-top: 15px;
+    font-size: large;
+    font-weight: 500;
+    margin-right: 30px;
+}
+.ProductDetail .carousel .thumbs-wrapper {
+    margin-left:0px;
+    height: 120px; 
+  }
+.ProductDetail .carousel .thumbs-wrapper .thumbs .thumb{
+
+    max-width: 70px;
+    height: 70px;
+    cursor: pointer;
+}
+.ProductDetail .carousel .thumbs-wrapper .thumbs .thumb img {
+    max-width: 60px;
+max-height: 60px;
+  }
+  .ProductPrice{
+    font-size: large;
+    font-weight: 500;
+  }
+  .reviewStars{
+    color:yellow;
+  }
+.ProductBar ul{
+    height:50px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+margin-bottom: 0px;
+
+}
+.ProductBar ul li{
+    font-size: larger;
+    list-style: none;
+    padding:10px;
+margin-right:20px;
+font-weight:600;
+background-color: rgba(21, 64, 194, 0.379);
+}
+.contentContainer{
+    height: auto;
+}
+#RelatedBox{
+  height:30%;
+}
+ 

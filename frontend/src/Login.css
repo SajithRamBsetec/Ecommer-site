@@ -1,0 +1,34 @@
+.loginForm{
+    margin-top: 10%;
+    margin-left: 27%;
+    padding:20px;
+    height:auto;
+    width:40%;
+    border:1px solid black;
+    border-radius: 5px;
+}
+.loglabel{
+color:Black;
+font-weight: 500;
+font-size: x-large;
+margin-top:10px;
+}
+.logBox{
+    height:35px;
+    width:90%;
+    border:1px solid black;
+    margin-top:10px;
+    border-radius: 5px;
+    
+}
+.loglinks{
+    text-decoration: none;
+    color:black;
+}
+.logbutt{
+margin-left:5%;
+    height:35px;
+    width:30%;
+    border:1px solid black;
+    margin-top:20px;
+}

@@ -1,0 +1,39 @@
+.totalCart{
+    position:fixed;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    background-color: rgb(232, 164, 164);
+    overflow: scroll;
+}
+.CartHeading{
+    margin:20px 0 10px 20px;
+}
+.paymentButt{
+    height:auto;
+   margin-top:50px;
+  
+    color:black;
+    font-weight: 500;
+    margin-left: 20px;
+}
+#cartProdImgView{
+    height:150px;
+    width:150px;
+
+}
+.cartCover{
+    margin:10px;
+    height:auto;
+    width:100%;
+    background-color:bisque;
+    
+}
+#CartProductsList{
+    margin-top:10px;
+    width:56%;
+    height:auto;
+    padding:20px;
+    background-color:white;
+}

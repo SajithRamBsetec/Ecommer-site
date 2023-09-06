@@ -1,0 +1,66 @@
+#Dashboard{
+    position:sticky;
+background-color: rgb(91, 165, 230);
+height:1000px;
+font-size:large;
+
+}
+.table{
+    background-color: antiquewhite;
+    font-size: 14px;
+
+}
+table tr{
+    border:1px solid black;
+}
+table tr th,td{
+    border-left:1px solid black;
+    padding:3px;
+    width:auto;
+}
+.TableSection{
+
+    height:fit-content;
+}
+.DetailSection{
+    font-size:small;
+    background-color: white;
+}
+.CustomerDetailViewButton{
+    height:25px;
+    width:auto;
+    border:1px solid black;
+    border-radius:2px;
+    font-size: 12px;
+    margin-left:5px;
+   
+}
+.CustomerLessViewButton{
+    height:25px;
+    width:auto;
+    border:1px solid black;
+    border-radius:2px;
+    font-size: 12px;
+    margin:15px 0 0 ;
+   
+}
+.OrderTableView{
+width: fit-content;
+    height:500px;
+    overflow-y: scroll;
+    border:2px solid black;
+    padding:10px;
+}
+.OrderDetailView{
+    margin:30px 0 0 0 ;
+    border:2px solid black;
+    padding:20px;
+}
+.CustomerOrderView{
+    width: fit-content;
+    height:300px;
+    overflow-y: scroll;
+    border:2px solid black;
+    padding:10px;
+
+}

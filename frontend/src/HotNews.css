@@ -1,0 +1,33 @@
+.hotNewsUpload{
+  border:2px solid black;
+  height:fit-content;
+  width:40%;
+  padding:20px;
+  margin:50px 0 0 32%;
+
+}
+.hotNewsHeading{
+    margin-top: 50px;
+    text-align: center;
+}
+.hotNewsLabel{
+    font-size: large;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.hotNewsInputs{
+    height:40px;
+    width:100%;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom:10px;
+
+}
+.hotNewsButton{
+    height:40px;
+    width:30%;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top:10px;
+    margin-left:33%;
+}

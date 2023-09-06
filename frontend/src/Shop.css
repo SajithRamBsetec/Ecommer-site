@@ -1,0 +1,57 @@
+
+.shopQuantity{
+    height: auto;
+    width:25%;
+}
+
+
+  .ShopsearchBox{
+    height:30px;
+    width: 20%;
+    border-radius: 5px;
+    margin-left: 39%;
+    margin-top: 5%;
+
+  }
+
+  .cover{
+    height:90%;
+    width:100%;
+    background-color: rgba(66, 134, 157, 0.593);
+    margin-top: 20px;
+
+  }
+  .header{
+    font-size: larger;
+    font-weight: 500;
+    color: black;
+    height:40px;
+    text-align: center;
+
+  }
+
+  .body div{
+    margin:10px;
+    display: flex;
+    justify-content: center;
+  }
+  #productImgView{
+  padding:10px 0;
+    height:200px;
+    width:auto;
+  }
+
+.footer{
+  height:53px;
+  overflow-y:auto;
+  
+}
+  .Product-container{
+    margin:20px;
+  }
+  .ProductLink{
+    display:flex;
+    justify-content: center;
+    text-decoration: none;
+    
+  }

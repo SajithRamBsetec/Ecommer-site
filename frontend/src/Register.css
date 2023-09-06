@@ -1,0 +1,49 @@
+.RegisterForm{
+    margin-left: 10%;
+    margin-top:2%;
+    height:auto;
+    width: 80%;
+    padding:30px;
+    border:1px solid black;
+}
+
+.RegisterBox{
+    border:1px solid black;
+   height: 40px;
+   width:100%;
+    margin-top:10px;
+    border-radius: 5px;
+}
+.RegisterSubmit{
+    height: 40px;
+   width:10%;
+   margin:10px;
+   border-radius: 5px;
+   border:1px solid black;
+    margin-left: 45%;
+    margin-top: 30px;
+}
+.reglabel{
+    margin-top:15px;
+    color:black;
+    font-weight: 500;
+    font-size:x-large;
+}
+.RegisterHeading{
+    margin-top: 20px;
+    text-align: center;
+}
+.regSpan{
+    color:red;
+}
+.LoginLink{
+    padding: 5px 5px;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 400;
+    color:rgb(153, 69, 231);
+
+}
+.loginIndicator{
+margin-left:35%;
+}
