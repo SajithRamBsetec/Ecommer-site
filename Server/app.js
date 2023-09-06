@@ -1,0 +1,60 @@
+const mongoose=require("mongoose")
+const express=require("express")
+const app=express()
+const cors=require("cors")
+const Stripe=require("stripe")("sk_test_51NTdrxSC3lUfyefa8GSZ6oFaTELhX0YsnJVzKbZUpVpAqKAsHYXn7f0YqTBR0yo2muOvDhFOu24XyEKZoyyg3s1b00G5YNgym0")
+require("dotenv").config()
+const userrouter =require("./Routes/Register")
+const loginroute=require("./Routes/Login")
+const addproductroute=require("./Routes/AddProduct")
+const getImage=require("./Routes/GetImage")
+const addcart=require("./Routes/AddCart")
+const profile=require("./Routes/Profile")
+const showcart=require("./Routes/ShowCart")
+const payment= require("./Routes/payment")
+const getQuantity=require("./Routes/Quantitygetter")
+const addWishList=require("./Routes/addWishList")
+const addHotNews=require("./Routes/HotNews")
+const categoryBunch=require("./Routes/CategoryBunch")
+const categoryProduct=require("./Routes/CategoryProduct")
+const billingShippingAddress=require("./Routes/BillingShippingAddress")
+const orderHistory=require("./Routes/OrderHistory")
+const liveOrders=require("./Routes/LiveOrderHistory")
+const productFilters=require("./Routes/ProductFilters")
+const path=require("path")
+
+
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+app.use(cors())
+app.use("/api",userrouter)
+app.use("/api",loginroute)
+app.use("/api",addproductroute)
+app.use("/api",getImage)
+app.use("/api",addcart)
+app.use("/api",showcart)
+app.use("/api",profile)
+app.use("/api",payment)
+app.use("/api",getQuantity)
+app.use("/api",addWishList)
+app.use("/api",addHotNews)
+app.use("/api",categoryBunch)
+app.use("/api",categoryProduct)
+app.use("/api",billingShippingAddress)
+app.use("/api",orderHistory)
+app.use("/api",liveOrders)
+app.use("/api",productFilters)
+app.use(express.static("Uploads/Images"))
+app.use(express.static("Uploads/ProfileImages"))
+app.use(express.static("Uploads/Hotnews"))
+
+
+const port=process.env.PORT
+app.listen(port,()=>{console.log("Server running on port : "+port)})
+
+const Mongo_Connect=process.env.MONGO_CONNECTION
+mongoose.connect(Mongo_Connect,{useNewUrlParser:true,
+    useUnifiedTopology:true})
+    .then(()=>{console.log("Db connected sucessfully")})
+    .catch(err=>{console.log("error in db connection"+err)})
+
