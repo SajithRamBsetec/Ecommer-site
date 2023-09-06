@@ -58,7 +58,7 @@ alert("unable to add Product")
   },[prevSpecs])
   return (
     <div>
-  
+  <div>isdf</div>
        <div>
        <form className='productform' onSubmit={(e)=>{handleProduct(e)}}>
        <h3 style={{textAlign:"center"}}>Product Details</h3>
